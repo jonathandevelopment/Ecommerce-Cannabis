@@ -24,8 +24,8 @@ const Products = () => {
                             <Box py={1} px={2}>
                                 <h3>{product.title}</h3>
                                 <h3>{product.id}</h3>
-                                <p>{product.description}</p>
-                                <p>{product.price}</p>
+                                <div>{product.description}</div>
+                                <div>{product.price}</div>
                             </Box>        
                     </Link>
                     </Card>
